@@ -1,0 +1,46 @@
+:root {
+  --vp-c-brand-1: #A7C7E7;
+  --vp-c-brand-2: #C8B6FF;
+  --vp-c-brand-3: #FFC8DD;
+  --vp-c-text-1: #F1F5F9;
+  --vp-c-text-2: #94A3B8;
+  --vp-font-family-base: "Georgia", "Noto Serif SC", "Source Han Serif SC", "Songti SC", serif;
+}
+
+body {
+  background: linear-gradient(135deg, #1A1B41 0%, #2A2355 50%, #1A1B41 100%) !important;
+  background-attachment: fixed !important;
+}
+
+.VPDoc, .VPContent, .VPFeature {
+  background-color: rgba(255, 255, 255, 0.06) !important;
+  border-radius: 16px !important;
+  border: 1px solid rgba(200, 182, 255, 0.2) !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+.VPNavBar, .VPSidebar, .VPLocalNav {
+  background-color: rgba(26, 27, 65, 0.95) !important;
+  border-bottom: 1px solid rgba(200, 182, 255, 0.15) !important;
+  border-right: 1px solid rgba(200, 182, 255, 0.15) !important;
+}
+
+.vp-doc h1, .vp-doc h2, .vp-doc h3, .vp-doc p, 
+.VPFeature .title, .VPFeature .details,
+.VPNavBarTitle, .VPNavBarMenuLink, .VPSidebarItem .text, .VPLocalNav {
+  color: #F1F5F9 !important;
+}
+
+.vp-doc h1, .vp-doc h2 {
+  text-shadow: 0 0 10px rgba(200, 182, 255, 0.3);
+}
+
+.VPHero .actions .VPButton {
+  background-color: #C8B6FF !important;
+  color: #1A1B41 !important;
+  font-weight: bold;
+}
+
+.VPSidebarItem.is-active > .item .link > .text {
+  color: #FFC8DD !important;
+}

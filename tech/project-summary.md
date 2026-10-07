@@ -6,17 +6,3 @@
 *   **前端框架**：VitePress（Vue 生态，基于 Markdown 驱动）。
 *   **设计理念**：JAMstack 架构（零服务器运维，天然防 SQL 注入）。
 *   **发布链路**：基于 Git 的 CI/CD 自动化流水线（Git-based CMS）。
-
-## 核心代码逻辑
-### 1. Markdown 渲染与分类标签（config.mjs）
-```javascript
-// 通过 frontmatter 自动提取 tags 和 category
-themeConfig: {
-  nav: [...],
-  sidebar: {
-    '/tech/': [
-      { text: '第一篇文章', link: '/tech/first-blog' },
-      { text: '第二篇文章', link: '/tech/post2' }
-    ]
-  }
-}
